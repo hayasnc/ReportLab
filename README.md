@@ -22,11 +22,13 @@ Note that Reportlab 3.x only supports Python 2.7 and Python 3.3+. If you are on 
 
 8. PDF Encryption
 The StandardEncryption constructor takes the following arguments:
+```
 def __init__(self, userPassword, ownerPassword=None,
                    canPrint=1,
                    canModify=1,
                    canCopy=1,
                    canAnnotate=1,
                    strength=40):
+```
 
 9. PLATYPUS - Page Layout and Typography Using Scripts
